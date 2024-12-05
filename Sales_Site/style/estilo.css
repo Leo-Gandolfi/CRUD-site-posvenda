@@ -1,0 +1,139 @@
+/* Estilos Globais */
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  background: rgb(114, 115, 218);
+  background: linear-gradient(90deg, rgba(114, 115, 218, 1) 0%, rgb(255, 255, 255) 48%, rgba(100, 108, 196, 1) 100%);
+  overscroll-behavior: none;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background: #01257D;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.btn-primary {
+  background: rgb(44, 153, 255);
+}
+
+#tableOS {
+  width: 100%;
+  margin: 5%;
+}
+
+.form-pesquisaOS {
+  margin-top: 5%;
+  padding: 10px;
+  background: #bdb7b7;
+  box-shadow: 2px 2px 20px 5px rgb(0, 0, 0);
+}
+
+/* Estilos Específicos para a Tela de Login */
+.login-container {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.login-container h1 {
+  text-align: center;
+  color: #2e86de;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.login-container .form-group {
+  margin-bottom: 20px;
+}
+
+.login-container label {
+  display: block;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.login-container input:focus {
+  border-color: #2e86de;
+  outline: none;
+  box-shadow: 0 0 4px rgba(46, 134, 222, 0.5);
+}
+
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background: #2e86de;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-container button:hover {
+  background: #1b5f9c;
+}
+
+.login-container a {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  color: #2e86de;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.login-container a:hover {
+  text-decoration: underline;
+}
+
+.login-container .alert {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.login-container .alert-info {
+  background-color: #e9f7fd;
+  color: #31708f;
+  border: 1px solid #bce8f1;
+}
+
+.login-container .alert-success {
+  background-color: #dff0d8;
+  color: #3c763d;
+  border: 1px solid #d6e9c6;
+}
+
+.login-container .alert-danger {
+  background-color: #f2dede;
+  color: #a94442;
+  border: 1px solid #ebccd1;
+}
